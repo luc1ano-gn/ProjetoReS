@@ -1,6 +1,6 @@
 # ProjetoReS
 
-# ReR
+# ReS
 
  O projeto é um site informativo voltado para a promoção da autonomia em tempos de crise,como mudanças climáticas ou situações de vulnerabilidade extremas. Através de artigos e orientações, o site oferece dicas práticas sobre como tratar água, cultivar alimentos, plantas  medicinais e comestíveis, permitindo que as pessoas se tornem mais autossuficientes diante  da escassez de recursos. Não se trata de um manual de sobrevivência, mas um espaço para   disseminação de conhecimento essencial para a sustentabilidade e resiliência em momentos de necessidade.
  
