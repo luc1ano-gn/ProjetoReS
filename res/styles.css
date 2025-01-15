@@ -1,0 +1,164 @@
+body{
+    font-family: "Merriweather";
+}
+
+
+.headermain{
+   position: relative;
+   top: 40px;
+  
+}
+
+.headermain ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    margin-left: 30px;
+    
+}
+
+.headermain ul li a{
+    text-decoration: none;
+    color: #809671;
+    font-size: 18px;
+}
+
+.banner{
+    background-size: cover;
+    background-color: #80967162;
+    height: 500px;
+    width: 95%;
+    position: relative;
+    left: 50px;
+    top:100px;
+}
+
+.banner-content {
+    display: flex; 
+    width: 90%;
+    height: 100%;
+}
+
+.banner-image {
+    flex: 1; 
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner-image img {
+    width: 422px;
+    height: auto;
+}
+
+.banner-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #2A3923;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+
+.banner-text h1 {
+    margin-bottom: 30px;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.banner-text p {
+    position: relative;
+    left: 40px;
+}
+
+.banner-text button {
+    padding: 10px 20px;
+    background-color: #BFDAA4;
+    border: none;
+    border-radius: 7px;
+    color: black;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+.banner-text button a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner-text button:hover{
+    background-color: #c8e0b0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color: #2A3923;
+    font-size: large;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container-item img{
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container-item p{
+    text-align: center;
+    color: #414c39;
+    background-color: #bfdaa43b;
+    font-family: "Poppins";
+    border-radius: 6px;
+}
+
+.container-item img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.sobre img{
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.sobre-text h1{
+    color: #2A3923;
+}
+
+.sobre-text p{
+    margin-right: 120px;
+    line-height: 1.5;
+    font-family: "Poppins";
+}
+
+.sobre-text a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #809671;
+    margin-bottom: 10px;
+}
+
+
